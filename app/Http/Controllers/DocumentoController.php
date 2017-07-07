@@ -78,6 +78,11 @@ class DocumentoCOntroller extends Controller
         
         return redirect()->route('documento.index');*/
         //return [1];
+
+        $mivariable = "hola";
+        print_r(json_encode($mivariable));
+
+        return $mivariable;
     }
 
     /**
